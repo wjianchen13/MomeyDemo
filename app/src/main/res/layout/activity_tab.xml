@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/flyt_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/flyt_bottom"
+        android:layout_marginBottom="-5dp" />
+
+    <LinearLayout
+        android:id="@+id/flyt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test1"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:onClick="onTest1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test2"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:onClick="onTest2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test3"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:onClick="onTest3"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test4"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:onClick="onTest4"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test5"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:onClick="onTest5" />
+
+    </LinearLayout>
+</RelativeLayout>
