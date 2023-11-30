@@ -39,6 +39,7 @@
         <activity android:name=".svga.SvgaActivity1" />
         <activity android:name=".svga.SvgaActivity2" />
         <activity android:name=".svga.SvgaActivity3" />
+        <activity android:name=".svga.SvgaActivity4" />
 
     </application>
 

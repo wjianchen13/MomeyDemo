@@ -69,6 +69,14 @@ public class SvgaActivity extends AppCompatActivity {
         SvgaCache.getInstance().clear();
     }
 
+    /**
+     * 自定义SVGAImageView, 及时回收资源
+     * @param v
+     */
+    public void onTest6(View v) {
+        startActivity(new Intent(this, SvgaActivity4.class));
+    }
+
     // 服务端解密
     public static String DESAndBase64Decrypt(String dataBase64, String key) throws Exception {
         // Log.d("DESAndBase64Decrypt", dataBase64);

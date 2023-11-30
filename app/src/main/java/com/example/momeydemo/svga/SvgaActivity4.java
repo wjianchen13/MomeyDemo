@@ -25,7 +25,7 @@ import javax.crypto.spec.DESKeySpec;
 /**
  * Svga动画测试
  */
-public class SvgaActivity1 extends AppCompatActivity {
+public class SvgaActivity4 extends AppCompatActivity {
 
     private SVGAImageView svgaTest1;
     static String ENCODE = "UTF-8";//保持平台兼容统一使用utf-8
@@ -34,7 +34,7 @@ public class SvgaActivity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_svga1);
+        setContentView(R.layout.activity_svga4);
         svgaTest1 = findViewById(R.id.svga_test1);
     }
 
@@ -76,7 +76,7 @@ public class SvgaActivity1 extends AppCompatActivity {
      */
     public void onTest2(View v) {
         svgaTest1.stopAnimation(true);
-        svgaTest1.clear();
+//        svgaTest1.clear();
     }
 
     //服务端解密

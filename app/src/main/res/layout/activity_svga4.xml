@@ -14,13 +14,21 @@
         android:gravity="center"
         android:text="Svga动画测试" />
 
+    <com.opensource.svgaplayer.SVGAImageView
+        android:id="@+id/svga_test1"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        app:antiAlias="true" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="获取真实Url"
+        android:text="开始动画"
         android:onClick="onTest1" />
 
     <Button
@@ -29,17 +37,9 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="单个动画"
+        android:text="停止动画"
         android:onClick="onTest2" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="列表"
-        android:onClick="onTest3" />
 
     <Button
         android:layout_width="match_parent"
@@ -47,26 +47,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="使用缓存"
-        android:onClick="onTest4" />
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="清除缓存"
-        android:onClick="onTest5" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="自定义SVGAImageView, 及时回收资源"
-        android:onClick="onTest6" />
+        android:text="获取真实Url"
+        android:onClick="onTest1" />
 
 </LinearLayout>
