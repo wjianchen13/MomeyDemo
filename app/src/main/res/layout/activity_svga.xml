@@ -69,4 +69,13 @@
         android:text="自定义SVGAImageView, 及时回收资源"
         android:onClick="onTest6" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="测试一直解析svga资源，直接去掉引用，但是不调用clear，看下内存是否能降下来"
+        android:onClick="onTest7" />
+
 </LinearLayout>

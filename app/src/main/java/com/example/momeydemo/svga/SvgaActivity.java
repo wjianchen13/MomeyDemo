@@ -131,4 +131,11 @@ public class SvgaActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 获取真实Url
+     * @param v
+     */
+    public void onTest7(View v) {
+        startActivity(new Intent(this, SvgaActivity7.class));
+    }
 }
