@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="获取真实Url"
+        android:text="获取内存基本信息"
         android:onClick="onTest1" />
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="单个动画"
+        android:text=""
         android:onClick="onTest2" />
 
     <Button
@@ -38,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="列表"
+        android:text=""
         android:onClick="onTest3" />
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="使用缓存"
+        android:text=""
         android:onClick="onTest4" />
 
 
@@ -57,7 +57,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="清除缓存"
+        android:text=""
         android:onClick="onTest5" />
 
     <Button
@@ -66,7 +66,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="自定义SVGAImageView, 及时回收资源"
+        android:text=""
         android:onClick="onTest6" />
 
     <Button
@@ -75,7 +75,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="测试一直解析svga资源，直接去掉引用，但是不调用clear，看下内存是否能降下来"
+        android:text=""
         android:onClick="onTest7" />
 
 </LinearLayout>

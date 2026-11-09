@@ -25,29 +25,36 @@ public class TestActivity1 extends AppCompatActivity {
     }
 
     /**
-     *
+     * 获取内存基本信息
      * @param v
      */
-    public void onTest2(View v) {
+    public void onTest1(View v) {
         getMaxMemoryInfo();
     }
 
     private void getMaxMemoryInfo() {
         Runtime rt = Runtime.getRuntime();
         long maxMemory = rt.maxMemory();
-        Log.e("XMemory", "Dalvik MaxMemory:" + Long.toString(maxMemory / (1024 * 1024)));
+        Log.e("XMemory", "Dalvik MaxMemory: " + Long.toString(maxMemory / (1024 * 1024)) + "M");
         ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        Log.e("XMemory", "Dalvik MemoryClass:" + Long.toString(activityManager.getMemoryClass()));
-        Log.e("XMemory", "Dalvik LargeMemoryClass:" + Long.toString(activityManager.getLargeMemoryClass()));
+        Log.e("XMemory", "Dalvik MemoryClass: " + Long.toString(activityManager.getMemoryClass()) + "M");
+        Log.e("XMemory", "Dalvik LargeMemoryClass: " + Long.toString(activityManager.getLargeMemoryClass()) + "M");
 
         ActivityManager.MemoryInfo info = new ActivityManager.MemoryInfo();
         activityManager.getMemoryInfo(info);
-        Log.e("XMemory", "系统总内存:" + (info.totalMem / (1024 * 1024)) + "M");
-        Log.e("XMemory", "系统剩余内存:" + (info.availMem / (1024 * 1024)) + "M");
+        Log.e("XMemory", "系统总内存: " + (info.totalMem / (1024 * 1024)) + "M");
+        Log.e("XMemory", "系统剩余内存: " + (info.availMem / (1024 * 1024)) + "M");
         Log.e("XMemory", "系统是否处于低内存运行：" + info.lowMemory);
-        Log.e("XMemory", "系统剩余内存低于" + (info.threshold / (1024 * 1024)) + "M时为低内存运行");
+        Log.e("XMemory", "系统剩余内存低于 " + (info.threshold / (1024 * 1024)) + "M 时为低内存运行");
     }
 
+    /**
+     *
+     * @param v
+     */
+    public void onTest2(View v) {
+
+    }
 
     /**
      *
@@ -85,16 +92,10 @@ public class TestActivity1 extends AppCompatActivity {
      * 获取真实Url
      * @param v
      */
-    public void onTest1(View v) {
-
-    }
-
-
-    /**
-     * 获取真实Url
-     * @param v
-     */
     public void onTest7(View v) {
 
     }
+
+
+
 }
