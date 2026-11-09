@@ -41,6 +41,7 @@
         <activity android:name=".svga.SvgaActivity3" />
         <activity android:name=".svga.SvgaActivity4" />
         <activity android:name=".svga.SvgaActivity7" />
+        <activity android:name=".test1.TestActivity1" />
 
     </application>
 
