@@ -1,5 +1,10 @@
 # android 内存优化
 
+# 编译环境
+Android Studio Quail 2 | 2026.1.2
+gradle插件：9.3.0
+gradle版本：gradle-9.5.0-bin.zip
+
 
 # 参考文档
 Java的四种引用类型
