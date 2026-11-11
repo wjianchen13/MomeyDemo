@@ -22,3 +22,19 @@ https://www.jianshu.com/p/fba7b43bdc9c
 
 Android Memory(一) -- 内存基础知识
 https://juejin.cn/post/7098257692828893220
+
+应用性能指南
+https://developer.android.com/topic/performance/issues/anr?hl=zh-cn
+
+Play 管理中心技术质量要求
+https://support.google.com/googleplay/android-developer/answer/17492799?hl=zh-Hans&sjid=12106743699679179630-NC#zippy=
+
+内存用量（匿名 RSS + 交换空间)
+https://developer.android.com/google/play/vitals/memory-usage?hl=zh-cn
+
+位图内存用量
+https://developer.android.com/topic/performance/issues/bitmap-memory-usage?hl=zh-cn
+
+
+
+
