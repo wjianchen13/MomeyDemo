@@ -35,6 +35,10 @@ https://developer.android.com/google/play/vitals/memory-usage?hl=zh-cn
 位图内存用量
 https://developer.android.com/topic/performance/issues/bitmap-memory-usage?hl=zh-cn
 
+程序性能优化之内存优化（三）上篇
+https://juejin.cn/post/6844903992275763213
+
+
 
 
 
