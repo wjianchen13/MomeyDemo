@@ -5,6 +5,9 @@ Android Studio Quail 2 | 2026.1.2
 gradle插件：9.3.0
 gradle版本：gradle-9.5.0-bin.zip
 
+项目应该禁止显示的动画
+语音波，送礼动画，顶部飘屏，入场飘屏
+
 
 # 参考文档
 Java的四种引用类型

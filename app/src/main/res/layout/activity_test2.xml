@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="获取内存基本信息"
+        android:text="测试Activity泄漏"
         android:onClick="onTest1" />
 
     <Button

@@ -1,11 +1,13 @@
 package com.example.momeydemo.test2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.momeydemo.R;
+import com.example.momeydemo.test2.test1.TestActivity21;
 
 /**
  * 主要是测试项目中使用的时候才加载头像框，气泡，标签等功能
@@ -19,10 +21,11 @@ public class TestActivity2 extends AppCompatActivity {
     }
 
     /**
-     * 获取内存基本信息
+     *  * 测试Activity泄漏
      * @param v
      */
     public void onTest1(View v) {
+        startActivity(new Intent(this, TestActivity21.class));
     }
 
     /**
@@ -73,6 +76,12 @@ public class TestActivity2 extends AppCompatActivity {
 
     }
 
+    /**
+     * 获取真实Url
+     * @param v
+     */
+    public void onTest8(View v) {
 
+    }
 
 }
