@@ -14,6 +14,7 @@ import com.example.momeydemo.reference.ReferenceActivity;
 import com.example.momeydemo.svga.SvgaActivity;
 import com.example.momeydemo.tab.TabActivity;
 import com.example.momeydemo.test1.TestActivity1;
+import com.example.momeydemo.test2.TestActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -85,6 +86,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onTest8(View v) {
         startActivity(new Intent(this, TestActivity1.class));
+    }
+
+    /**
+     * 项目内存测试
+     * @param v
+     */
+    public void onTest9(View v) {
+        startActivity(new Intent(this, TestActivity2.class));
     }
 
 }
