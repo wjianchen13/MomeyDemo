@@ -1,5 +1,7 @@
 package com.example.momeydemo.test2.test1;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,6 +23,8 @@ public class TestActivity21 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test21);
         imgvTest = findViewById(R.id.imgv_test);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.bg_test);
+        imgvTest.setImageBitmap(bitmap);
     }
 
     /**
